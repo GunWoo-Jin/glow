@@ -38,7 +38,7 @@ export class GlowParticle {
         }
 
         ctx.beginPath();
-        const g = ctx.createRadiusGradient(
+        const g = ctx.createRadialGradient(
             this.x,
             this.y,
             this.radius * 0.01,
